@@ -45,3 +45,12 @@ export const AllCaps: Story = {
       fontColor: '#5517ac',
     }
   };
+
+  export const BackgroundColor: Story = {
+    args:{
+      size: 'h1',
+      label: 'Background label',
+      fontColor: 'white',
+      backgroundColor: 'black'
+    }
+  };
